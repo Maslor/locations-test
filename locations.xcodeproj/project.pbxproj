@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		0342A31E1CF20872009374C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0342A31D1CF20872009374C6 /* AppDelegate.swift */; };
 		0342A3201CF20872009374C6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0342A31F1CF20872009374C6 /* FirstViewController.swift */; };
-		0342A3221CF20872009374C6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0342A3211CF20872009374C6 /* SecondViewController.swift */; };
+		0342A3221CF20872009374C6 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0342A3211CF20872009374C6 /* LocationVC.swift */; };
 		0342A3251CF20872009374C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0342A3231CF20872009374C6 /* Main.storyboard */; };
 		0342A3271CF20872009374C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0342A3261CF20872009374C6 /* Assets.xcassets */; };
 		0342A32A1CF20872009374C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0342A3281CF20872009374C6 /* LaunchScreen.storyboard */; };
+		0342A3321CF210FD009374C6 /* InterestingPlacesAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0342A3311CF210FD009374C6 /* InterestingPlacesAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0342A31A1CF20871009374C6 /* locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = locations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0342A31D1CF20872009374C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0342A31F1CF20872009374C6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0342A3211CF20872009374C6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0342A3211CF20872009374C6 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		0342A3241CF20872009374C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0342A3261CF20872009374C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0342A3291CF20872009374C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0342A32B1CF20872009374C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0342A3311CF210FD009374C6 /* InterestingPlacesAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestingPlacesAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				0342A31D1CF20872009374C6 /* AppDelegate.swift */,
 				0342A31F1CF20872009374C6 /* FirstViewController.swift */,
-				0342A3211CF20872009374C6 /* SecondViewController.swift */,
+				0342A3211CF20872009374C6 /* LocationVC.swift */,
+				0342A3311CF210FD009374C6 /* InterestingPlacesAnnotation.swift */,
 				0342A3231CF20872009374C6 /* Main.storyboard */,
 				0342A3261CF20872009374C6 /* Assets.xcassets */,
 				0342A3281CF20872009374C6 /* LaunchScreen.storyboard */,
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0342A3221CF20872009374C6 /* SecondViewController.swift in Sources */,
+				0342A3221CF20872009374C6 /* LocationVC.swift in Sources */,
+				0342A3321CF210FD009374C6 /* InterestingPlacesAnnotation.swift in Sources */,
 				0342A31E1CF20872009374C6 /* AppDelegate.swift in Sources */,
 				0342A3201CF20872009374C6 /* FirstViewController.swift in Sources */,
 			);
